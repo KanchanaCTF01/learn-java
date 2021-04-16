@@ -7,13 +7,13 @@ public class Lab1 {
 		boolean myBoolean = true;
 		String myString = "Hi";
 		float myFloatNum = 5.69999996f;
-		char myLetter = '\u1233';		
+		char myChar = '\u1233';		
 		
-		System.out.println("This is a int " + myInt);
-		System.out.println("This is a boolean " + myBoolean);
-		System.out.println("This is a String " + myString);
-		System.out.println("This is a float " + myFloatNum);
-		System.out.println("This is a char " + myLetter);
+		System.out.println("This is a int : " + myInt);
+		System.out.println("This is a boolean : " + myBoolean);
+		System.out.println("This is a String : " + myString);
+		System.out.println("This is a float : " + myFloatNum);
+		System.out.println("This is a char : " + myChar);
 		
 		//System.out.println("This is a String " + myString);
 		
