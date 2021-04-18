@@ -33,13 +33,12 @@ public class Lab2 {
 		
 		System.out.println("----------------------------");
 		
-		//int newInt = myFloatNum; ==>cannot convert type
+		int newInt = (int)myFloatNum;
 		float newFloat = myInt;
 		//float newDouble = myDouble; ==>cannot convert type
 		int newChar = myChar;		
-		//float newDouble = myDouble; ==>cannot convert type
 		
-		System.out.println("float -> int //cannot covert");		
+		System.out.println("float -> int :" + newInt);		
 		System.out.println("int -> float : " + newFloat);
 		System.out.println("double -> float //cannot covert");
 		System.out.println("char -> int : " + newChar);
